@@ -4,12 +4,19 @@
 
 alert ("Seja bem vindo ao calculador de ordem crescente e decrescente")
 
-let numero1 = parseFloat(prompt("Digite um número: "))
-let numero2 = parseFloat(prompt("Digite um número: "))
-let numero3 = parseFloat(prompt("Digite um número: "))
+let primeiroNumero = parseInt(prompt("Digite o primeiro número: "))
 
-if  (numero1>=numero2 & numero3){
-    alert("Seus números estão em ordem decrescente")
+let segundoNumero = parseInt(prompt("Digite o segundo número: "))
+
+let terceiroNumero = parseInt(prompt("Digite terceiro número: "))
+
+if  (primeiroNumero <segundoNumero && segundoNumero < terceiroNumero){
+    console.log ("Os números estão em ordem crescente")
 } else {
-    alert("Seus números estão em ordem crescente")
+    console.log("Os números NÃO estão e ordem crescente")
+
 }
+
+//Desafio 
+//Informe se os números informados estão em 
+//ordem crescente / descrescente / não ordenado 
